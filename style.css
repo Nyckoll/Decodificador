@@ -1,0 +1,118 @@
+
+body{
+    background: #e9ecf8;
+    padding: 20px;
+    position: absolute;
+}
+h1{
+    font-size: 40px;
+    position: left;
+    color: #052051;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.retangulo{
+    width: 25rem;
+    height: 30rem;
+    background-color: #AAB2D5;
+    border-radius: 10%;
+    position: fixed;
+    left: 65%;
+    display: flex;
+    align-items: center;
+}
+.main__wrapper-textarea {
+    border-radius: 1rem;
+   /* border: 0.2rem solid #AAB2D5; */
+    background-color: #e9ecf8;
+    box-shadow: #AAB2D5;
+    padding: 1.6rem;
+    width: 25rem;
+    height: 10rem;
+
+    flex-basis: 37rem;
+}
+
+.main__wrapper-textarea:focus-within {
+    outline: auto;
+}
+
+.main__textarea {
+    resize: none;
+    width: 100%;
+    height: 95%;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    color: #052051;
+    background-color: #e9ecf8;
+    padding-right: 1rem;
+}
+
+.main__textarea::placeholder {
+    color: #052051;
+}
+.retangulo-texto {
+    width: 25rem;
+    height: 30rem;
+    background-color: #AAB2D5;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2; /* adicionei essa propriedade para garantir que o texto esteja acima das imagens */
+  }
+
+.menina{
+    position: absolute;
+    top:5rem;
+    left: 0;
+    z-index: 1;
+}
+.mensagem{
+    top: 20%;
+    left: 10%;
+    position: relative;
+    z-index: 2;
+}
+
+.botao-div{
+    position: fixed;
+    display: flex;
+    width: 45rem;
+    height: 2.5rem;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.botao{
+    width: 15rem;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.botao2{
+    width: 15rem;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+.botao:hover{
+    background-color: #bfcce2;
+}
+.botao2:hover{
+    background-color: #bfcce2;
+}
+p{
+    resize: none;
+    width: 100%;
+    height: 95%;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    color: #052051;
+    padding-right: 1rem;
+}
